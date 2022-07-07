@@ -1,16 +1,195 @@
 {
-  "posts":[
-    {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
-    }
-  ],
-  "comments" : [
+  "restaurants": [
     {
       "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "name": "McDonald's",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/36/McDonald%27s_Golden_Arches.svg",
+      "slogan": "Some fun, some food, it's all inside this Happy Meal",
+      "menu": [
+        {
+          "meal": "Big Mac",
+          "price": 4.89
+        },
+        {
+          "meal": "Cheeseburger",
+          "price": 1.69
+        },
+        {
+          "meal": "Hamburger",
+          "price": 1.59
+        },
+        {
+          "meal": "Filet O Fish",
+          "price": 4.59
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Subway",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Subway_restaurant.svg",
+      "slogan": "Eat Fresh",
+      "menu": [
+        {
+          "meal": "Oven Roasted Chicken - 6\"",
+          "price": 3.99
+        },
+        {
+          "meal": "Turkey Breast - Footlong",
+          "price": 6.5
+        },
+        {
+          "meal": "Black Forest Ham - Footlong",
+          "price": 6.5
+        },
+        {
+          "meal": "Grilled Chicken",
+          "price": 8.49
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Chick-fil-A",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/02/Chick-fil-A_Logo.svg",
+      "slogan": "Live mas",
+      "menu": [
+        {
+          "meal": "Grilled Cool Wrap",
+          "price": 7.25
+        },
+        {
+          "meal": "Sandwich",
+          "price": 4.29
+        },
+        {
+          "meal": "Grilled Chicken Club Meal",
+          "price": 10.29
+        },
+        {
+          "meal": "Chick-fil-A Deluxe Meal",
+          "price": 8.29
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Panda Express",
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/85/Panda_Express_logo.svg",
+      "slogan": "Gourmet Chinese Food",
+      "menu": [
+        {
+          "meal": "Bowl: 1 Entree + 1 Side",
+          "price": 5.9
+        },
+        {
+          "meal": "Bigger Plate: 3 Entrees + 1 Side",
+          "price": 8.4
+        },
+        {
+          "meal": "Family Feast: 3 Large Entrees ",
+          "price": 31.5
+        },
+        {
+          "meal": "Honey Walnut Shrimp",
+          "price": 3.75
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Starbucks",
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d3/Starbucks_Corporation_Logo_2011.svg",
+      "slogan": "Coffee that inspires",
+      "menu": [
+        {
+          "meal": "Pumpkin Spice Latte",
+          "price": 4.75
+        },
+        {
+          "meal": "Double Chocolate Brownie",
+          "price": 2.95
+        },
+        {
+          "meal": "Chocolate Croissant",
+          "price": 2.95
+        },
+        {
+          "meal": "Banana Nut Loaf",
+          "price": 3.25
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Chipotle Mexican Grill",
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/3b/Chipotle_Mexican_Grill_logo.svg",
+      "slogan": "food with integrity",
+      "menu": [
+        {
+          "meal": "Smoked Brisket",
+          "price": 10.5
+        },
+        {
+          "meal": "Chicken",
+          "price": 8.25
+        },
+        {
+          "meal": "Quesadilla - Chicken",
+          "price": 8.7
+        },
+        {
+          "meal": "Keto Salad Bowl (Steak)",
+          "price": 12
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "El Pollo Loco",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/El_Pollo_Loco_Logo.jpg",
+      "slogan": "Feed the Flame",
+      "menu": [
+        {
+          "meal": "Tortilla Soup - small",
+          "price": 2.99
+        },
+        {
+          "meal": "Leg & Thigh - Combo",
+          "price": 6.89
+        },
+        {
+          "meal": "Breast & Wing - Combo",
+          "price": 7.39
+        },
+        {
+          "meal": "Tortilla Soup - Large",
+          "price": 5.49
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": 0,
+      "firstName": "youba",
+      "lastName": "idjis",
+      "email": "youba@flatiron.com",
+      "password": "1234"
+    },
+    {
+      "firstName": "ryan",
+      "lastName": "shue",
+      "email": "ryanShue@flatiron.com",
+      "password": "1234",
+      "id": 1
+    },
+    {
+      "firstName": "yougo",
+      "lastName": "idjis",
+      "email": "yougo@flatiron.com",
+      "password": "5678",
+      "id": 2
     }
   ]
 }
